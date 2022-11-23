@@ -1,0 +1,78 @@
+body, .second {
+  font-family: 'Oswald', sans-serif;
+}
+
+body {
+  background-color: #7F669D;
+}
+
+.second {
+  background-color: #FBFACD;
+}
+
+h1, .answer, .dec-img, form {
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  margin-top: 2%;
+  font-size: 6rem;
+  color: #FBFACD;
+}
+
+.mb-3 {
+  padding: 2% 40%;
+}
+
+.inp {
+  border-radius: 10px;
+}
+
+.final-button {
+  margin-top: 3%;
+  border-radius: 10px;
+}
+
+.age {
+  font-size: 4rem;
+  color: #7F669D;
+}
+
+.answer {
+  font-size: 5rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 40% 2%;
+}
+
+.correct, .wrong {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.correct {
+  color: green;
+}
+
+.correct:hover {
+  color: #82CD47;
+}
+
+.wrong:hover {
+  color: #F7A4A4;
+}
+
+.wrong {
+  color: red;
+}
+
+.meme {
+  width: 25%;
+  height: 25%;
+}
+
+.ret {
+  padding: 1%;
+}
